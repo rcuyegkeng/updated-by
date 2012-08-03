@@ -12,6 +12,9 @@ end
 #   cattr_accessor :current_user
 # end
 
+# TODO remarking this out so that the AppicationController defined in the
+# app is not overridden.  Find a way to move this code back to the gem.
+# Perhaps include a module from the app?
 #class ApplicationController < ActionController::Base
 #  before_filter :set_current_user 
 
