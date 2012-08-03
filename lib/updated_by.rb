@@ -12,11 +12,11 @@ end
 #   cattr_accessor :current_user
 # end
 
-class ApplicationController < ActionController::Base
-  before_filter :set_current_user 
+#class ApplicationController < ActionController::Base
+#  before_filter :set_current_user 
 
-  private
-  def set_current_user
-    User.current_user = current_user if defined?(current_user)
-  end
-end
+#  private
+#  def set_current_user
+#    User.current_user = current_user if defined?(current_user)
+#  end
+#end
