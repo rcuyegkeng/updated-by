@@ -6,4 +6,5 @@ Gem::Specification.new do |s|
   s.description = "Insert Updated-by description."
   s.files = Dir["lib/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.version = "0.0.1"
+  s.author = "lucasrenan"
 end
